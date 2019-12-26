@@ -36,7 +36,7 @@ Highcharts.mapChart('container', {
   },
 
   title: {
-    text: 'Highmaps basic demo'
+    text: 'Cobertura de internet por departamento'
   },
 
   mapNavigation: {
@@ -55,10 +55,10 @@ Highcharts.mapChart('container', {
     floating: true,
     layout: 'vertical',
     valueDecimals: 0,
-    backgroundColor: 'rgba(255,255,255,0.9)',
+    backgroundColor: 'transparent',
     symbolRadius: 0,
     symbolHeight: 12,
-    marginRight:30,
+    x:-10,
     width: 200,
   },
   colorAxis: {
