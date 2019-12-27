@@ -145,7 +145,7 @@ Highcharts.mapChart('container', {
     map: 'countries/pe/pe-all'
   },
   title: {
-    text: 'Cobertura de internet y porcentaje de población joven por departamento'
+    text: 'Cobertura de internet VS % de población joven por departamento'
   },
 
   mapNavigation: {
@@ -156,7 +156,7 @@ Highcharts.mapChart('container', {
   },
   legend: {
     title: {
-      text: 'Porcentaje de electores jóvenes en el Perú'
+      text: '% de electores jóvenes en el Perú'
     },
     align: 'left',
     verticalAlign: 'bottom',
@@ -199,8 +199,8 @@ Highcharts.mapChart('container', {
       }
     },
     tooltip: {
-      shared: true,
-        useHTML: true,
+          shared: true,
+          useHTML: true,
           pointFormat:  '<span><b>{point.name}</b></span><br>Cobertura de internet: {point.internet}% <br> Población menor de 30 años: {point.menores_30}%'
     },
     dataLabels: {
@@ -215,7 +215,8 @@ Highcharts.mapChart('container', {
           	fontFamily: 'Helvetica, sans-serif',
           	fontSize: '9px',
             fontWeight: 'normal',
-            textShadow: 'none'
+            textShadow: 'none',
+            zIndex: 0
           },
       formatter: function () {
       console.log(this.point)

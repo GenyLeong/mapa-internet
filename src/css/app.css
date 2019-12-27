@@ -27,17 +27,16 @@
 div.highcharts-data-label span{
     border-left: 0;
     border-right: 0;
-    z-index: 1;
 }
+
 .highcharts-label{
-  position:static;
   display: block;
-  z-index: 1;
 }
-.highcharts-tooltip{
-  position: static;
-  display:block;
-  z-index: 99999;
+.highcharts-tooltip, .highcharts-tooltip > span{
+  z-index: 9999999 !important;
+  background-color: blanchedalmond;
+  padding: 0;
+  border:none;
 }
 .little-title{
   margin:0;
