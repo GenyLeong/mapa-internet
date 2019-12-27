@@ -1,0 +1,75 @@
+#container {
+  height: 770px;
+  min-width: 310px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.loading {
+  margin-top: 10em;
+  text-align: center;
+  color: gray;
+}
+
+.highcharts-data-label tspan{
+  font-size: 10px;
+  font-weight: normal;
+}
+
+.highcharts-legend{
+  pointer-events: none;
+}
+
+.highcharts-label span span:nth-child(1), .highcharts-tooltip span span:nth-child(2){
+  display: none;
+}
+
+div.highcharts-data-label span{
+    border-left: 0;
+    border-right: 0;
+    z-index: 1;
+}
+.highcharts-label{
+  position:static;
+  display: block;
+  z-index: 1;
+}
+.highcharts-tooltip{
+  position: static;
+  display:block;
+  z-index: 99999;
+}
+.little-title{
+  margin:0;
+  font-size:10px;
+  font-weight: 700;
+  padding:3px;
+  color:#fff;
+  background-color: #000;
+  border-radius: 3px;
+}
+.internet, .menores, .mayores{
+  margin:0;
+  font-size:9px;
+  padding:3px;
+  color:#fff;
+}
+.menores{
+  background-color: #a50026;
+  border-bottom-right-radius: 3px;
+}
+.mayores{
+  background-color: #006837;
+  border-bottom-right-radius: 3px;
+}
+.internet{
+  background-color: #fff;
+  border-bottom-left-radius:3px;
+  color:#000;
+}
+/* p.none-bg{
+  background: '#ffffbf' !important;
+} */
+/* .highcharts-tooltip>span {
+    height:80px;
+} */
