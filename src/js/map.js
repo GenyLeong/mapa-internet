@@ -147,7 +147,14 @@ Highcharts.mapChart('container', {
   title: {
     text: 'Cobertura de internet VS % de población joven por departamento'
   },
-
+  subtitle: {
+          text: '<p>Total de electores:  <b>6 791 977</b></p>',
+          useHTML:true,
+          style: {
+              color: '#000',
+              fontSize:'12px'
+          }
+      },
   mapNavigation: {
     enabled: true,
     buttonOptions: {
@@ -210,7 +217,8 @@ Highcharts.mapChart('container', {
           useHTML: true,
           color: '#000',
           borderRadius: 5,
-          y: 10,
+          y: -5,
+          x:5,
           style: {
           	fontFamily: 'Helvetica, sans-serif',
           	fontSize: '9px',
