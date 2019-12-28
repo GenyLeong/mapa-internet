@@ -5,11 +5,8 @@
   margin: 0 auto;
   display: inline-block;
 }
-
-.loading {
-  margin-top: 10em;
-  text-align: center;
-  color: gray;
+.subtitle{
+  margin:0
 }
 
 .highcharts-data-label tspan{
