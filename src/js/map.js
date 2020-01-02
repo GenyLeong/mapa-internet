@@ -148,7 +148,7 @@ Highcharts.mapChart('container', {
     text: 'Cobertura de internet VS % de población joven por departamento'
   },
   subtitle: {
-          text: '<p class="subtitle">Total de electores:  <b>6 791 977</b></p>',
+          text: '<p class="subtitle">Total de electores:  <b>6 937 424</b></p>',
           useHTML:true,
           style: {
               color: '#000',
