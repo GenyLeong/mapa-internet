@@ -46,7 +46,7 @@ var data = [
 },{
   'code':  'pe-hv',
   'internet':26.3,
-    'menores_30':32.08,
+    'menores_30':32.84,
     'color':'#a6d96a'
   },
 {
