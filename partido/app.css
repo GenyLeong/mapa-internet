@@ -1,0 +1,21 @@
+#container {
+  height: 800px;
+  min-width: 320px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.loading {
+  margin-top: 10em;
+  text-align: center;
+  color: gray;
+}
+
+.highcharts-data-label tspan{
+  font-size: 10px;
+  font-weight: normal;
+}
+
+.highcharts-legend{
+  pointer-events: none;
+}
